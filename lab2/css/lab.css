@@ -1,9 +1,36 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+#content {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, 
+rgba(29,9,121,0.8213410364145658) 31%, rgba(105,9,121,0.8213410364145658) 64%);
+  width: 50%;
+  border: dotted 4px black;
+  border-radius: 10px;
+}
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 4px #b17cbd;
+  border-radius: 10px;
+  background-color: black;
+  border-style: dashed;
+  opacity: 35%
   }
+
+.minor-section:hover {
+    opacity: 100%;
+    cursor: pointer;
+  }
+
+ h1 {
+  font-family:'Times New Roman', Times, serif; 
+  color: white;
+ }
+
+h2 {
+  color: #a8329b;
+}
+
+p {
+  color: #ffc2f6;
+}
