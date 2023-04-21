@@ -1,52 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
-
-	<!-- Use UTF character set, a good idea with any webpage -->
+	<title>Lab 4 - Pseudocoding and Problem-Solving</title>
   	<meta charset="UTF-8" />
-	<!-- Set viewport so page remains consistently scaled w narrow devices -->
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
-	<!-- Include a sitewide CSS file for consistent styling across the site -->
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<!-- Lab-specifc CSS file for any special styling of this particular page -->
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
-	
-	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 	<script type="text/javascript" src="./js/lab.js" DEFER></script>
 </head>
 <body>
-	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4 - Pseudocoding and Problem-Solving</h1>
 			<div class="minor-section">
-					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+				<h2>Challenge</h2>
+				<p>The biggest challenge I ran into was figuring out how to write the
+					pseudocode for how the game detects what player won. Rock, Papers, and Scissors
+					has a lot of win conditions so it made it hard for me to figure out how the 
+					code could calculate those results. I ended up writing condition statements
+					as placeholders for the game.
+				</p>
 			</div>
-
 			<div class="minor-section">
-					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+				<h2>Problems</h2>
+				<p>I didn't really have a lot of problems with this lab assignment. The only
+					actual problem I had was figuring out how to do sub tasks in the form as sub 
+					bullet points on the lab website for the every day task implementation. I later
+					figured out by experimenting that making an unordered list with a "li" tag inside
+					made it a bullet point instead of a number in an ordered list.
+				</p>
 			</div>
-
 			<div class="minor-section">
-					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
-			</div>
-
-			<div class="minor-section">
-					<h2>Results</h2>
-					<div id="output"></div>
+				<h2>Results</h2>
+				<p>Here is the result of my Javascript pseudocode for an Every Day Task list and a
+					Rock, Papers, Scissors game:</p>
+				<h2>Everyday Task:</h2>
+				<ol>
+					<li>Wake up by an alarm</li>
+					<ul>
+						<li>Make sure to open eyes</li>
+					</ul>
+					<li>Get out of your bed</li>
+					<li>Walk over to your alarm and turn it off</li>
+					<li>Turn on your room lights</li>
+					<li>Go to the bathroom</li>
+					<li>Wash your face with water then brush your teeth</li>
+					<ul>
+						<li>Apply any other bath products you use like floss.</li>
+					</ul>
+					<li>Apply facial care and head back to your room</li>
+					<li>Get dressed in new clothes</li>
+					<ul>
+						<li>Pick clothes appropriate for the kind of day you are going out for</li>
+					</ul>
+					<li>Get ready for the day</li>
+				</ol>
+				<h2>Rock, Paper, Scissors Game:</h2>
+				<pre><code>
+				// Print the options each turn for both players
+				// One user input from both players is accepted: rocks, paper, or scissors
+				// Print countdown as in... 3, 2, 1 or rock, paper, scissor!
+					// If rock and paper...
+						// Print paper wins
+					// Else if rock and scissors...
+						// Print rock wins
+					// Else if paper and scissors...
+						// Print scissors wins
+					// Else if player 1 input = player 2 imput...
+						// Print tie
+							// Give user input again and restart from step 2
+				</pre></code>
 			</div>
 		</section>
 		<nav id="links">
-			<!-- Put links to other pages (including the homepage) here. -->
-		</nav>
 	</main>
 </body>
 </html>
