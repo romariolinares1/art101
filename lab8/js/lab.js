@@ -25,3 +25,10 @@ var newResult = numArray.map(function(x) {
     return results;
 })
 console.log("Numbers in the array divided by 2: ", newResult);
+
+var outputEl = document.getElementById("output");
+outputEl.innerHTML = (
+    "Original Array: " + "["+ numArray +"]" +
+    "<br>Square Rooted Array: " + "["+ firstResult + "]" +
+    "<br>Divided Array: " + "["+ newResult + "]" 
+    );

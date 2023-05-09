@@ -40,12 +40,14 @@
     background-color: rgb(62, 46, 46);
   }
   
-  h1, h2 {
+  h1, h2, p {
     color: white;
     font-family: 'VT323', monospace;
   }
 
-  p, .output {
+  #output {
     color: white;
     font-family: 'VT323', monospace;
+    border: 2px gray solid;
+    padding: 20px;
   }
