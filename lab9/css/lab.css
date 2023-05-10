@@ -1,0 +1,27 @@
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 0px;
+  background-color: rgb(243, 250, 202);
+}
+
+.button {
+  background-color: #03a909;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px groove;
+  border-top-color: #26ff47;
+  border-bottom-color: #1d8617;
+  border-left-color: #1b7a18;
+  border-right-color: #123e09;
+  color: white;
+  font-family: 'VT323', monospace;
+  padding: 15px 15px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #2b642d;
+}
