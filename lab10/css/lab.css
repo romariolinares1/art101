@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(102,84,94);
+}
+
+.minor-section {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 0px;
+  background-color: rgb(246,224,181);
+  border-radius: 5px;
+}
+
+h1 {
+  color: #eea990;
+  font-size: 30px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+  color: #eea990;
+  font-family: 'Roboto Mono', monospace;
+}
+
+p, label {
+  color: #aa6f73;
+  font-family: 'Roboto Mono', monospace;
+}
+
+button {
+  background-color: #a39193;
+  border: 15px inset;
+  border-top-color: #aa6f73;
+  border-bottom-color: #673f42;
+  border-left-color: #4a2f31;
+  border-right-color: #e8969c;
+  color: white;
+  font-family: 'VT323', monospace;
+  font-size: 30px;
+  cursor: pointer;
+  transform: scale(0.8);
+}
+
+button:hover {
+  transform: scale(1);
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+#output {
+  color: #66545e;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+}
