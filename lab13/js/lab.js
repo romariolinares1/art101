@@ -3,11 +3,10 @@
 
 // Creating string variable
 var str;
-// Adding event listener for new button element
-var button = document.getElementById("button");
-button.addEventListener("click", function() {
+// fizzBoom function
+function fizzBoom(maxNum) {
     // Loop from numbers 1 to 200
-    for (var i=1; i<200; i++) {
+    for (var i=1; i<maxNum; i++) {
         str = "";
         // If a number is a multiple of 3, make string value "Fizz"
         if (i % 3 == 0) {
@@ -30,4 +29,11 @@ button.addEventListener("click", function() {
     }
     // Adds the special class from CSS to output div
     $("#output").addClass("special");  
+}
+
+// Adding event listener for new button element
+var button = document.getElementById("button");
+button.addEventListener("click", function() {
+    // Return a list of strings/numbers from 1-200
+    return fizzBoom(200);
 })
