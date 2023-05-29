@@ -3,6 +3,7 @@
 
 // Function sortedUserName declares userName variable as user input and sorts the letters.
 function sortedUserName() {
+    console.log("if pop up twice then fix");
     var userName = window.prompt("What is your name user?");
     // Variable arrayName converts string userName to array.
     var arrayName = userName.split('');
@@ -11,4 +12,6 @@ function sortedUserName() {
 }
 
 // Output shows final sortedName as string
-document.writeln("Here is your sorted name: ", sortedUserName(), "</br>");
+var finalName = sortedUserName();
+console.log(finalName);
+document.writeln("Here is your sorted name: ", finalName, "</br>");

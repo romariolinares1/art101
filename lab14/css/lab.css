@@ -1,0 +1,35 @@
+body {
+  background-color: #bea7d8;
+  padding: 10px;
+}
+
+#content {
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #f5e0fa;
+  border: 7px ridge;
+  border-top-color: #a28eb1;
+  border-bottom-color: #705e76;
+  border-left-color: #463b4c;
+  border-right-color: #9379b0;
+}
+
+h1 {
+  color: #c37cef;
+  font-size: 30px;
+  font-family: 'Pangolin', cursive;
+}
+
+h2, h3 {
+  color: #c37cef;
+  font-family: 'Pangolin', cursive;
+}
+
+p {
+  color: rgb(96, 84, 102);
+  font-family: 'Pangolin', cursive;
+}
+
+.images {
+  width: 50%;
+}
