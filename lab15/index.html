@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 15 - AJAX</title>
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <script src="js/lab.js" defer></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+	<div id="content">
+		<h1>Lab 15 - AJAX</h1>
+		<h2>Challenge</h2>
+		<p>My biggest challenge was figuring how to actually use the AJAX function and implement an
+			API by its URL. I wasn't able to attend the lecture because I had to sort out some
+			urgent business so I was unfamiliar with the AJAX/API lesson. After looking at the resources
+			on Canvas and Discord, I was able to figure out how to type out the AJAX function that I needed.
+			I was also able to figure out how to grab certain sections from an API using the data feature.
+		</p>
+		<h2>Problems</h2>
+		<p>The one problem I faced while doing this lab was trying to print a specific section/category
+			from the API that I chose. Whenever I tried returnning 'data' it just returned as undefined
+			in both console and website page. By looking through the console where the full library was 
+			printed for the specific category, I found how to access a specific section of it. I realized you
+			had to do data.nameofcategory.
+		</p>
+		<h2>Results</h2>
+		<div id="output">
+			<button id="activate">Activate</button>
+		</div>
+	</div>
+</body>
+</html>
